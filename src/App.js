@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import MainNavigation from "./NavBar/MainNavigation";
 import Journal from "./Journal/Journal";
+import PreviousJournals from "./Journal/PreviousJournals";
 
 
 const App = () => {
@@ -26,7 +27,7 @@ const App = () => {
         </Route>
 
         <Route path="/journal/previous" exact>
-          <Journal/>
+          <PreviousJournals/>
         </Route>
 
         <Route path="/Meditation" exact>
