@@ -35,12 +35,13 @@ const PreviousJournals = () => {
 
             <Card style={{ width: '80rem' }} className="mt-3">
                 <Card.Body>
-                    <Card.Title>Summer Ughh</Card.Title>
+                    <Card.Title>Summer!!!</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Entry 3</Card.Subtitle>
                     <Card.Text>
-                       Summer has been terrible recently. I had to take my whole test and I haven't been having the greatest time.
-                        I need a break but my family doesn't let me have one and it makes me really sad. I don't know what to do,
-                        but coding can make me happy!
+                        Summer has been going really good and I
+                        am having a great time. Although I had to grind out my ACT,
+                        I really had time to enjoy after and I am reaping the benefits of
+                        having free time. I am so excited for school to start in the future as well.
                     </Card.Text>
                 </Card.Body>
             </Card>

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-d
 import MainNavigation from "./NavBar/MainNavigation";
 import Journal from "./Journal/Journal";
 import PreviousJournals from "./Journal/PreviousJournals";
+import Data from "./Data/Data";
 
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
         </Route>
 
         <Route path="/data" exact>
-
+          <Data/>
         </Route>
 
         <Route path="/journal/previous" exact>
