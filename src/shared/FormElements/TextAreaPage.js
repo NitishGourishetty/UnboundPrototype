@@ -23,7 +23,6 @@ const TextareaPage = () => {
                 <Button type="submit" variant="outline-info">Log</Button>{' '}
                 <Button variant="outline-secondary">
                     <Link variant="outline-secondary" className="link colorgray" to="/data">Data</Link>
-
                 </Button>{' '}
                 <Button variant="outline-primary" >
                     <Link className="link" to="/journal/previous">Previous Entries</Link>

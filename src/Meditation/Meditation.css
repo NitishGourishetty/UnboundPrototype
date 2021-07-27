@@ -1,0 +1,8 @@
+.Calendar {
+    width: 100rem;
+    height: 50rem;
+}
+
+.react-calendar__tile {
+    height: 128px;
+}

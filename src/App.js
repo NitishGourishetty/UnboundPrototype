@@ -4,6 +4,8 @@ import MainNavigation from "./NavBar/MainNavigation";
 import Journal from "./Journal/Journal";
 import PreviousJournals from "./Journal/PreviousJournals";
 import Data from "./Data/Data";
+import Meditation from "./Meditation/Meditation";
+
 
 
 const App = () => {
@@ -16,7 +18,7 @@ const App = () => {
         </Route>
 
         <Route path="/about" exact>
-
+          <Meditation/>
         </Route>
 
         <Route path="/journal" exact>
