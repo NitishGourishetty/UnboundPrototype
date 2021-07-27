@@ -12,7 +12,7 @@ const Meditation = () => {
 
     return (
         <Container >
-            <h1 className="text-lg-center display-5">Meditate-Keep track of your meditation!</h1>
+            <h1 style={{fontWeight:"bold", textAlign: "center"}} className="pt-3">Meditate-Keep track of your meditation!</h1>
             <div className="mt-3">
                 <Calendar className="Calendar"
                           onChange={onChange}

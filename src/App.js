@@ -5,46 +5,51 @@ import Journal from "./Journal/Journal";
 import PreviousJournals from "./Journal/PreviousJournals";
 import Data from "./Data/Data";
 import Meditation from "./Meditation/Meditation";
+import HomePage from "./HomePage/HomePage";
 
 
 
 const App = () => {
-  return <Router>
-    <MainNavigation />
-    <main>
-      <Switch>
-        <Route path="/" exact>
+  return <div>
+    <Router>
+      <MainNavigation/>
+      <main>
+        <Switch>
+          <Route path="/" exact>
+            <HomePage/>
+          </Route>
 
-        </Route>
+          <Route path="/meditation" exact>
+            <Meditation/>
+          </Route>
 
-        <Route path="/about" exact>
-          <Meditation/>
-        </Route>
+          <Route path="/journal" exact>
+            <Journal/>
+          </Route>
 
-        <Route path="/journal" exact>
-          <Journal/>
-        </Route>
+          <Route path="/data" exact>
+            <Data/>
+          </Route>
 
-        <Route path="/data" exact>
-          <Data/>
-        </Route>
+          <Route path="/journal/previous" exact>
+            <PreviousJournals/>
+          </Route>
 
-        <Route path="/journal/previous" exact>
-          <PreviousJournals/>
-        </Route>
+          <Route path="/Meditation" exact>
 
-        <Route path="/Meditation" exact>
+          </Route>
 
-        </Route>
+          <Route path="/Sign Up" exact>
 
-        <Route path="/Sign Up" exact>
+          </Route>
 
-        </Route>
+          <Redirect to="/"/>
+        </Switch>
+      </main>
+    </Router>;
+  </div>
 
-        <Redirect to="/"/>
-      </Switch>
-    </main>
-  </Router>;
+
 }
 
 export default App;

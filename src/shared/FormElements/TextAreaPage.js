@@ -9,7 +9,7 @@ const TextareaPage = () => {
         <Container>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
-                    <h1 className="display-4">Journaling</h1>
+                    <h1 style={{fontWeight:"bold"}} className="pt-3">Journaling</h1>
                     <p className="lead">This is a place you can feel safe and log in anything that happened today.
                         Make sure you put everything and don't miss out any details. After you do that you can check
                         our scanners and we will show more of your emotions.</p>
